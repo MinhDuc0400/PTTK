@@ -1,0 +1,27 @@
+.right-bar {
+  background-color: white;
+  width: 300px;
+  height: calc(100vh - 70px);
+  .user-info {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    .user-ava {
+      margin-right: 20px;
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+    }
+  }
+  .user-function {
+    .func {
+      display: flex;
+      padding: 10px 13px;
+      .func-logo {
+        margin-right: 12px;
+      }
+    }
+  }
+}
