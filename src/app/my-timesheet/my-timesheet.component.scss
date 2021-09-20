@@ -4,6 +4,11 @@
 
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .inner-tab {
   padding: 10px;
 }
